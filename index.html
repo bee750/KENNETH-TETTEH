@@ -1,10 +1,202 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Fashion Brand</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KILENTAR | Luxury Fashion</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Georgia", serif;
+        }
+
+        body {
+            background: #ffffff;
+            color: #222;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 8%;
+            border-bottom: 1px solid #eee;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            color: #c9a227;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin-left: 25px;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .hero {
+            height: 85vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(
+                rgba(255,255,255,0.8),
+                rgba(255,255,255,0.8)
+            );
+        }
+
+        .hero h1 {
+            font-size: 70px;
+            letter-spacing: 8px;
+            color: #c9a227;
+        }
+
+        .hero p {
+            font-size: 22px;
+            margin: 20px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 35px;
+            background: #c9a227;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .collections {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 300px;
+            padding: 40px;
+            border: 1px solid #eee;
+        }
+
+        .card h3 {
+            color: #c9a227;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        .whatsapp {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background: #25D366;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+        }
+
+        @media(max-width:768px){
+            .hero h1 {
+                font-size: 45px;
+            }
+
+            nav {
+                display:none;
+            }
+        }
+
+    </style>
 </head>
+
 <body>
-    <h1>Welcome to My Fashion Brand</h1>
-    <p>Our official website is coming soon.</p>
+
+<header>
+    <div class="logo">KILENTAR</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+
+<section class="hero">
+
+<div>
+    <h1>KILENTAR</h1>
+
+    <p>
+        Luxury Fashion For Men & Women
+    </p>
+
+    <a class="btn" href="#">
+        Explore Collection
+    </a>
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Our Collections</h2>
+
+<br>
+
+<div class="collections">
+
+<div class="card">
+<h3>Men's Fashion</h3>
+<p>
+Elegant suits, traditional wear and modern styles.
+</p>
+</div>
+
+
+<div class="card">
+<h3>Women's Fashion</h3>
+<p>
+Premium dresses, bridal and custom designs.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+<p>
+© 2026 KILENTAR. All Rights Reserved.
+</p>
+</footer>
+
+
+<a class="whatsapp" href="https://wa.me/233244091163">
+WhatsApp
+</a>
+
+
 </body>
 </html>
